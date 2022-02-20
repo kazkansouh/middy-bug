@@ -1,0 +1,16 @@
+service: middy-bug
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.handler
+    events:
+      - http:
+          path: /
+          method: get
+
+plugins:
+  - serverless-plugin-typescript
