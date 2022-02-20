@@ -1,6 +1,6 @@
 # Middy Bug
 
-Repo for a bug report into [MiddyJS](https://github.com/middyjs/middy).
+Repo for a bug report into [MiddyJS](https://github.com/middyjs/middy). See https://github.com/middyjs/middy/issues/810 for more info.
 
 When the code in this repo is deployed, it generates the following error:
 
